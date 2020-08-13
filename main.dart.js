@@ -44983,14 +44983,14 @@ D.pk.prototype={
 aP:function(){return new D.D4(new P.m(0,0),[0.6,0.7,0.6,0.5,0.7,0.8],F.Yp(),P.eq(102,88,128,1),null,C.o)}}
 D.D4.prototype={
 aS:function(){var s=this,r=null
-s.dy=U.cI("marsz1.png",r)
-s.fr=U.cI("marsz2.png",r)
-s.fx=U.cI("game1.png",r)
-s.fy=U.cI("game3.png",r)
-s.go=U.cI("shop1.png",r)
-s.id=U.cI("shop4.png",r)
-s.k1=U.cI("air1.png",r)
-s.k2=U.cI("air2.png",r)
+s.dy=U.cI("images/marsz1.png",r)
+s.fr=U.cI("images/marsz2.png",r)
+s.fx=U.cI("images/game1.png",r)
+s.fy=U.cI("images/game3.png",r)
+s.go=U.cI("images/shop1.png",r)
+s.id=U.cI("images/shop4.png",r)
+s.k1=U.cI("images/air1.png",r)
+s.k2=U.cI("images/air2.png",r)
 s.be()},
 b0:function(){var s=this
 s.H3()
@@ -45026,31 +45026,31 @@ D.Tb.prototype={
 $0:function(){this.a.y=P.eq(105,81,110,1)},
 $S:0}
 D.T6.prototype={
-$3:function(a0,a1,a2){var s,r,q,p=null,o=1124,n="THE GAME",m=this.b,l=this.c,k=this.a,j=k.y,i=P.cP(0,500,0),h=M.aS(p,new T.dy(C.U,p,p,T.lA(L.dq("ABOUT ME",p,p,A.f_(p,p,C.l,p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p),p),C.ix),p),C.j,p,p,p,l,p,p,p,m),g=m*0.5,f=T.lA(O.bE("WHAT'S THAT",A.f_(p,p,P.bs(102,255,255,255),p,p,p,p,p,p,p,p,g,p,C.w,p,p,!0,p,p,p,p,p,p)),C.nN),e=t.Y,d=T.bD(p,T.jx(H.b([new T.aA(new V.V(0,0,0,0),O.bE("What's That",B.XR(C.j,21,C.b1)),p),new T.aA(new V.V(0,15,0,0),p,p),M.aS(p,L.dq("Aplikacja Mobilna kt\xf3ra\npomaga szuka\u0107 ubra\u0144",p,p,B.bn(C.j,48,C.w),p),p,p,p,p,p,p,new V.V(0,0,0,15),p,p),new T.aA(new V.V(0,20,0,0),L.dq("What's That to aplikacja spo\u0142eczno\u015bciowa. Celem aplikacji jest\npomaganie innym u\u017cytkownikom w znajdowaniu ubra\u0144\npo zdj\u0119ciach. A tak\u017ce sklep\xf3w w kt\xf3rych mo\u017cna je kupi\u0107.",6,p,B.bn(C.j,16,C.m),C.dh),p)],e),C.aU,C.bw),p,p,0,p,100,p),c=T.bD(p,T.jx(H.b([O.bE("Ilo\u015b\u0107 ubra\u0144",B.bn(C.j,15,p)),new T.aA(new V.V(0,13,0,0),p,p),O.bE("15 000+",B.bn(C.j,25,C.w)),new T.aA(new V.V(0,50,0,0),p,p),O.bE("Ilo\u015b\u0107 kategorie",B.bn(C.j,15,p)),new T.aA(new V.V(0,13,0,0),p,p),O.bE("75+",B.bn(C.j,25,C.w))],e),C.aU,C.bw),p,p,p,p,400,p),b=T.bD(p,M.aS(p,T.eg(C.aJ,H.b([new T.aA(new V.V(150,0+k.z,0,0),M.aS(p,U.cI("whatsthat1.png",C.ag),p,p,p,p,600,p,p,p,p),p)],e),C.aI),p,p,p,p,800,p,p,p,m),p,p,p,p,330,p),a=k.Q
-a=M.aS(p,new T.dy(C.U,p,p,M.aS(p,T.eg(C.aJ,H.b([new T.dy(C.U,p,p,new T.kh(3,f,p),p),d,c,b,T.bD(p,M.aS(p,U.cI("whatsthat3.png",C.ag),p,p,p,p,600,p,p,p,p),p,p,p,200,400+a,p)],e),C.aI),p,p,p,p,o,p,p,p,o),p),p,p,p,p,o,p,new V.V(0,0,0,0),p,m)
+$3:function(a0,a1,a2){var s,r,q,p=null,o=1124,n="THE GAME",m=this.b,l=this.c,k=this.a,j=k.y,i=P.cP(0,500,0),h=M.aS(p,new T.dy(C.U,p,p,T.lA(L.dq("ABOUT ME",p,p,A.f_(p,p,C.l,p,p,p,p,p,p,p,p,p,p,p,p,p,!0,p,p,p,p,p,p),p),C.ix),p),C.j,p,p,p,l,p,p,p,m),g=m*0.5,f=T.lA(O.bE("WHAT'S THAT",A.f_(p,p,P.bs(102,255,255,255),p,p,p,p,p,p,p,p,g,p,C.w,p,p,!0,p,p,p,p,p,p)),C.nN),e=t.Y,d=T.bD(p,T.jx(H.b([new T.aA(new V.V(0,0,0,0),O.bE("What's That",B.XR(C.j,21,C.b1)),p),new T.aA(new V.V(0,15,0,0),p,p),M.aS(p,L.dq("Aplikacja Mobilna kt\xf3ra\npomaga szuka\u0107 ubra\u0144",p,p,B.bn(C.j,48,C.w),p),p,p,p,p,p,p,new V.V(0,0,0,15),p,p),new T.aA(new V.V(0,20,0,0),L.dq("What's That to aplikacja spo\u0142eczno\u015bciowa. Celem aplikacji jest\npomaganie innym u\u017cytkownikom w znajdowaniu ubra\u0144\npo zdj\u0119ciach. A tak\u017ce sklep\xf3w w kt\xf3rych mo\u017cna je kupi\u0107.",6,p,B.bn(C.j,16,C.m),C.dh),p)],e),C.aU,C.bw),p,p,0,p,100,p),c=T.bD(p,T.jx(H.b([O.bE("Ilo\u015b\u0107 ubra\u0144",B.bn(C.j,15,p)),new T.aA(new V.V(0,13,0,0),p,p),O.bE("15 000+",B.bn(C.j,25,C.w)),new T.aA(new V.V(0,50,0,0),p,p),O.bE("Ilo\u015b\u0107 kategorie",B.bn(C.j,15,p)),new T.aA(new V.V(0,13,0,0),p,p),O.bE("75+",B.bn(C.j,25,C.w))],e),C.aU,C.bw),p,p,p,p,400,p),b=T.bD(p,M.aS(p,T.eg(C.aJ,H.b([new T.aA(new V.V(150,0+k.z,0,0),M.aS(p,U.cI("images/whatsthat1.png",C.ag),p,p,p,p,600,p,p,p,p),p)],e),C.aI),p,p,p,p,800,p,p,p,m),p,p,p,p,330,p),a=k.Q
+a=M.aS(p,new T.dy(C.U,p,p,M.aS(p,T.eg(C.aJ,H.b([new T.dy(C.U,p,p,new T.kh(3,f,p),p),d,c,b,T.bD(p,M.aS(p,U.cI("images/whatsthat3.png",C.ag),p,p,p,p,600,p,p,p,p),p,p,p,200,400+a,p)],e),C.aI),p,p,p,p,o,p,p,p,o),p),p,p,p,p,o,p,new V.V(0,0,0,0),p,m)
 b=T.bD(p,T.jx(H.b([new T.aA(C.h4,L.dq("App Marsz Niepodleg\u0142o\u015bci",p,p,B.bn(C.j,18,C.w),p),p),new T.aA(C.oq,L.dq("Najwi\u0119kszy marsz\nw Polsce",p,p,B.bn(C.j,43,C.w),p),p),new T.aA(C.oq,L.dq("Aplikacja dla Marszu Niepodleg\u0142o\u015bci\nAktualno\u015bci, Mapa marszu,\n\u015apiewnik i Historia\nWszystko w jednym miesjcu.",p,p,B.bn(C.j,21,C.m),p),p),new T.aA(new V.V(0,50,0,0),p,p),new T.aA(C.h4,O.bE("Ilo\u015b\u0107 pie\u015bni",B.bn(C.j,15,p)),p),new T.aA(new V.V(0,13,0,0),p,p),new T.aA(C.h4,O.bE("5+",B.bn(C.j,25,C.w)),p),new T.aA(new V.V(0,50,0,0),p,p),new T.aA(C.h4,O.bE("Ilo\u015b\u0107 u\u017cytkownik\xf3w",B.bn(C.j,15,p)),p),new T.aA(new V.V(0,13,0,0),p,p),new T.aA(C.h4,O.bE("150+",B.bn(C.j,25,C.w)),p)],e),C.aU,C.bw),p,p,p,p,250,p)
-c=T.bD(-100+k.cx,M.aS(p,U.cI("marsz2.png",C.ag),p,p,p,p,600,p,p,p,p),p,p,p,0,p,p)
+c=T.bD(-100+k.cx,M.aS(p,U.cI("images/marsz2.png",C.ag),p,p,p,p,600,p,p,p,p),p,p,p,0,p,p)
 d=k.ch
-d=M.aS(p,new T.dy(C.U,p,p,M.aS(p,T.eg(C.aJ,H.b([b,c,T.bD(p,M.aS(p,U.cI("marsz1.png",C.ag),p,p,p,p,600,p,p,p,p),p,p,0,p,0+d,p)],e),C.aI),p,p,p,p,o,p,p,p,o),p),p,p,p,p,o,p,new V.V(0,0,0,0),p,m)
+d=M.aS(p,new T.dy(C.U,p,p,M.aS(p,T.eg(C.aJ,H.b([b,c,T.bD(p,M.aS(p,U.cI("images/marsz1.png",C.ag),p,p,p,p,600,p,p,p,p),p,p,0,p,0+d,p)],e),C.aI),p,p,p,p,o,p,p,p,o),p),p,p,p,p,o,p,new V.V(0,0,0,0),p,m)
 c=T.bD(p,M.aS(p,T.lA(O.bE(n,A.f_(p,p,P.bs(102,255,255,255),p,p,p,p,p,p,p,p,g,p,C.w,p,p,!0,p,p,p,p,p,p)),C.ix),p,p,p,p,p,p,p,p,600),p,p,p,0,350,p)
 b=T.bD(p,T.jx(H.b([new T.aA(new V.V(0,0,0,0),O.bE(n,B.XR(C.j,21,C.b1)),p),new T.aA(new V.V(0,15,0,0),p,p),M.aS(p,L.dq("Gra zr\u0119czno\u015bciowa\ntestuj\u0105ca szybko\u015b\u0107 u\u017cytkownika",p,p,B.bn(C.j,48,C.w),p),p,p,p,p,p,p,new V.V(0,0,0,15),p,p),new T.aA(new V.V(0,20,0,0),L.dq("The Game to gra zr\u0119czno\u015bciowa. Gra opiera si\u0119 na szybko\u015bci\njak i spostrzegawczo\u015bci gracza. Trudno\u015b\u0107 gry zwi\u0119ksza si\u0119 wraz z poziomem.\nDziesi\u0105tki r\xf3\u017cnych planszy, cztery kategorie, tysi\u0105ce poziom\xf3w\ni challenge kt\xf3ry mo\u017cna gra\u0107 w niesko\u0144czono\u015b\u0107.",6,p,B.bn(C.j,16,C.m),C.dh),p)],e),C.aU,C.bw),p,p,0,p,0,p)
 f=T.bD(p,T.jx(H.b([O.bE("Ilo\u015b\u0107 poziom\xf3w",B.bn(C.j,15,p)),new T.aA(new V.V(0,13,0,0),p,p),O.bE("1 600+",B.bn(C.j,25,C.w)),new T.aA(new V.V(0,50,0,0),p,p),O.bE("Max punkt\xf3w",B.bn(C.j,15,p)),new T.aA(new V.V(0,13,0,0),p,p),O.bE("\u221e+",B.bn(C.j,35,C.w))],e),C.aU,C.bw),p,p,p,p,300,p)
 s=k.cy
-s=T.bD(p,M.aS(p,T.eg(C.aJ,H.b([new T.aA(new V.V(150,0,0,0),M.aS(p,U.cI("game1.png",C.ag),p,p,p,p,600,p,p,p,p),p)],e),C.aI),p,p,p,p,800,p,p,p,m),p,p,p,p,240+s,p)
+s=T.bD(p,M.aS(p,T.eg(C.aJ,H.b([new T.aA(new V.V(150,0,0,0),M.aS(p,U.cI("images/game1.png",C.ag),p,p,p,p,600,p,p,p,p),p)],e),C.aI),p,p,p,p,800,p,p,p,m),p,p,p,p,240+s,p)
 r=k.db
-r=M.aS(p,new T.dy(C.U,p,p,M.aS(p,T.eg(C.aJ,H.b([c,b,f,s,T.bD(p,M.aS(p,U.cI("game3.png",C.ag),p,p,p,p,600,p,p,p,p),p,p,p,100,1000-r,p)],e),C.aI),p,p,p,p,o,p,p,p,o),p),p,p,p,p,o,p,new V.V(0,0,0,0),p,m)
+r=M.aS(p,new T.dy(C.U,p,p,M.aS(p,T.eg(C.aJ,H.b([c,b,f,s,T.bD(p,M.aS(p,U.cI("images/game3.png",C.ag),p,p,p,p,600,p,p,p,p),p,p,p,100,1000-r,p)],e),C.aI),p,p,p,p,o,p,p,p,o),p),p,p,p,p,o,p,new V.V(0,0,0,0),p,m)
 s=T.bD(p,new T.kh(0,M.aS(p,T.lA(O.bE("MODERN",A.f_(p,p,P.eq(105,105,105,1),p,p,p,p,p,p,p,p,g,p,C.w,p,p,!0,p,p,p,p,p,p)),C.ag),p,p,p,p,500,p,p,p,p),p),p,p,0,p,p,p)
 f=T.bD(100,new T.kh(0,M.aS(p,T.lA(O.bE("SHOP",A.f_(p,p,P.eq(105,105,105,1),p,p,p,p,p,p,p,p,g,p,C.w,p,p,!0,p,p,p,p,p,p)),C.ag),p,p,p,p,500,p,p,p,p),p),p,p,0,p,p,p)
 b=T.bD(p,T.jx(H.b([new T.aA(C.l8,L.dq("Modern Shop",p,p,B.bn(P.eq(37,37,37,1),18,C.w),p),p),new T.aA(C.or,L.dq("Minimalistyczny sklep\nz akcesoriami domowymi",p,p,B.bn(P.eq(37,37,37,1),43,C.w),p),p),new T.aA(C.or,L.dq("Modernistyczny sklep kt\xf3ry,\nsprzedaje minimalistyczne przedmioty\ndo u\u017cytku domowego.\nDzia\u0142aj\u0105cy na wszystkich\nu\u017c\u0105dzeniach mobilynch.",p,p,B.bn(P.eq(37,37,37,1),21,C.m),p),p),new T.aA(new V.V(0,50,0,0),p,p),new T.aA(C.l8,O.bE("Ilo\u015b\u0107 produkt\xf3w",B.bn(P.eq(37,37,37,1),15,p)),p),new T.aA(new V.V(0,13,0,0),p,p),new T.aA(C.l8,O.bE("150+",B.bn(P.eq(37,37,37,1),25,C.w)),p)],e),C.aU,C.bw),p,p,p,p,250,p)
-c=T.bD(350-k.z,M.aS(p,U.cI("shop1.png",C.ag),p,p,p,p,600,p,p,p,p),p,p,p,0,p,p)
+c=T.bD(350-k.z,M.aS(p,U.cI("images/shop1.png",C.ag),p,p,p,p,600,p,p,p,p),p,p,p,0,p,p)
 q=k.dx
-q=M.aS(p,new T.dy(C.U,p,p,M.aS(p,T.eg(C.aJ,H.b([s,f,b,c,T.bD(p,M.aS(p,U.cI("shop4.png",C.ag),p,p,p,p,600,p,p,p,p),p,p,40,p,800-q,p)],e),C.aI),p,p,p,p,1224,p,p,p,o),p),p,p,p,p,1224,p,new V.V(0,0,0,0),p,m)
+q=M.aS(p,new T.dy(C.U,p,p,M.aS(p,T.eg(C.aJ,H.b([s,f,b,c,T.bD(p,M.aS(p,U.cI("images/shop4.png",C.ag),p,p,p,p,600,p,p,p,p),p,p,40,p,800-q,p)],e),C.aI),p,p,p,p,1224,p,p,p,o),p),p,p,p,p,1224,p,new V.V(0,0,0,0),p,m)
 g=T.bD(0,new T.kh(3,M.aS(p,T.lA(O.bE("AIR QUALITY",A.f_(p,p,P.bs(102,255,255,255),p,p,p,p,p,p,p,p,g,p,C.w,p,p,!0,p,p,p,p,p,p)),C.ag),p,p,p,p,200,p,p,p,p),p),p,p,p,0,p,p)
 c=T.bD(p,T.jx(H.b([new T.aA(new V.V(0,0,0,0),O.bE("Air Quality",B.XR(C.j,21,C.b1)),p),new T.aA(new V.V(0,15,0,0),p,p),M.aS(p,L.dq("Sprawdzanie jako\u015bci\npowietrza w\nPolsce",p,p,B.bn(C.j,48,C.w),p),p,p,p,p,p,p,new V.V(0,0,0,15),p,p),new T.aA(new V.V(0,20,0,0),L.dq("Air Quality - aplikacja ta pozwala sprawdzi\u0107 jako\u015b\u0107\npowietrza w ca\u0142ej Polsce - 16 wojew\xf3d\u017atwach - na podstawie\ndanych udostepnianych przez G\u0142\xf3wny Inspektorat Ochrony \u015arodowiska.",6,p,B.bn(C.j,16,C.m),C.dh),p)],e),C.aU,C.bw),p,p,0,p,100,p)
 b=T.bD(p,T.jx(H.b([new T.aA(new V.V(0,50,0,0),p,p),O.bE("Ilo\u015b\u0107 stacji",B.bn(C.j,15,p)),new T.aA(new V.V(0,13,0,0),p,p),O.bE("400+",B.bn(C.j,25,C.w)),new T.aA(new V.V(0,50,0,0),p,p),O.bE("Ilo\u015b\u0107 pomiar\xf3w",B.bn(C.j,15,p)),new T.aA(new V.V(0,13,0,0),p,p),O.bE("4+",B.bn(C.j,25,C.w))],e),C.aU,C.bw),p,p,p,p,400,p)
-f=T.bD(p,M.aS(p,T.eg(C.aJ,H.b([new T.aA(new V.V(150,0+k.ch,0,0),M.aS(p,U.cI("air1.png",C.ag),p,p,p,p,600,p,p,p,p),p)],e),C.aI),p,p,p,p,800,p,p,p,m),p,p,p,p,330,p)
+f=T.bD(p,M.aS(p,T.eg(C.aJ,H.b([new T.aA(new V.V(150,0+k.ch,0,0),M.aS(p,U.cI("images/air1.png",C.ag),p,p,p,p,600,p,p,p,p),p)],e),C.aI),p,p,p,p,800,p,p,p,m),p,p,p,p,330,p)
 s=k.db
-s=H.b([h,a,d,r,q,M.aS(p,new T.dy(C.U,p,p,M.aS(p,T.eg(C.aJ,H.b([g,c,b,f,T.bD(p,M.aS(p,U.cI("air2.png",C.ag),p,p,p,p,600,p,p,p,p),p,p,p,100,1500-s,p)],e),C.aI),p,p,p,p,o,p,p,p,o),p),p,p,p,p,o,p,new V.V(0,0,0,0),p,m)],e)
+s=H.b([h,a,d,r,q,M.aS(p,new T.dy(C.U,p,p,M.aS(p,T.eg(C.aJ,H.b([g,c,b,f,T.bD(p,M.aS(p,U.cI("images/air2.png",C.ag),p,p,p,p,600,p,p,p,p),p,p,p,100,1500-s,p)],e),C.aI),p,p,p,p,o,p,p,p,o),p),p,p,p,p,o,p,new V.V(0,0,0,0),p,m)],e)
 f=P.aN([null,0],t.gm,t.e)
 h=s.length
 k=T.eg(C.aJ,H.b([T.bD(p,M.aS(p,U.ys(new B.xY(new G.PU(!0,!0,!0,s,f),p,C.r,!1,k.x,!1,p,!1,p,h,C.an,C.xq,p),new D.T5(k),t.s4),p,p,p,p,l,p,p,p,m),p,p,p,p,p,p)],e),C.aI)
