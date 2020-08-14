@@ -6624,7 +6624,7 @@ if(m<=0||b.a<=0||c.b<=0||c.a<=0)return C.vt
 switch(a){case C.oa:s=c
 r=b
 break
-case C.li:q=c.a
+case C.iT:q=c.a
 p=c.b
 o=b.a
 s=q/p>o/m?new P.a1(o*p/m,p):new P.a1(q,m*q/o)
@@ -6636,7 +6636,7 @@ o=b.a
 r=q/p>o/m?new P.a1(o,o*p/q):new P.a1(m*q/p,m)
 s=c
 break
-case C.iT:m=b.a
+case C.li:m=b.a
 q=c.b
 p=c.a
 q=m*q/p
@@ -12458,7 +12458,8 @@ _.r=b
 _.x=c
 _.y=d
 _.fr=!1
-_.k4=_.k3=_.k2=_.k1=_.id=_.go=_.fy=_.fx=null
+_.fx=0
+_.r1=_.k4=_.k3=_.k2=_.k1=_.id=_.go=_.fy=null
 _.b2$=e
 _.a=null
 _.b=f
@@ -33286,7 +33287,7 @@ r.dr(new P.u(p,o,p+s.a,o+s.b))}switch(a.D){case C.oa:s=a.k4
 j=s.a/n
 i=s.b/m
 break
-case C.li:s=a.k4
+case C.iT:s=a.k4
 h=Math.min(s.a/n,s.b/m)
 i=h
 j=i
@@ -33300,7 +33301,7 @@ case C.W:h=a.k4.b/m
 i=h
 j=i
 break
-case C.iT:h=a.k4.a/n
+case C.li:h=a.k4.a/n
 i=h
 j=i
 break
@@ -51736,8 +51737,8 @@ this.jM(new D.ZC(this))}}
 N.pC.prototype={
 aJ:function(){return new N.EU(C.k)}}
 N.EU.prototype={
-T:function(a){var s,r=this,q=null,p=r.a.d,o=T.bv(0,new T.lq(3,M.aT(q,T.zB(O.bZ("AIR QUALITY",A.fs(q,q,P.aN(102,255,255,255),q,q,q,q,q,q,q,q,p*0.5,q,C.w,q,q,!0,q,q,q,q,q,q)),C.W),q,q,q,q,200,q,q,q,q),q),q,q,q,0,q,q),n=t.Y,m=T.bv(q,T.kF(H.a([new T.aK(new V.Y(0,0,0,0),O.bZ("Air Quality",B.a1q(C.j,21,C.bK)),q),new T.aK(new V.Y(0,15,0,0),q,q),M.aT(q,L.fr("Sprawdzanie jako\u015bci\npowietrza w\nPolsce",q,q,B.bA(C.j,48,C.w),q),q,q,q,q,q,q,new V.Y(0,0,0,15),q,q),new T.aK(new V.Y(0,20,0,0),L.fr("Air Quality - aplikacja ta pozwala sprawdzi\u0107 jako\u015b\u0107\npowietrza w ca\u0142ej Polsce - 16 wojew\xf3d\u017atwach - na podstawie\ndanych udostepnianych przez G\u0142\xf3wny Inspektorat Ochrony \u015arodowiska.",6,q,B.bA(C.j,16,C.o),C.dq),q)],n),C.aV,C.bz),q,q,0,q,100,q),l=T.bv(q,T.kF(H.a([new T.aK(new V.Y(0,50,0,0),q,q),O.bZ("Ilo\u015b\u0107 stacji",B.bA(C.j,15,q)),new T.aK(new V.Y(0,13,0,0),q,q),O.bZ("400+",B.bA(C.j,25,C.w)),new T.aK(new V.Y(0,50,0,0),q,q),O.bZ("Ilo\u015b\u0107 pomiar\xf3w",B.bA(C.j,15,q)),new T.aK(new V.Y(0,13,0,0),q,q),O.bZ("4+",B.bA(C.j,25,C.w))],n),C.aV,C.bz),q,q,q,q,400,q),k=r.a.d,j=t.l,i=S.dW(q,q,H.a([new O.cZ(5,P.aN(51,0,0,0),new P.n(0,15),20)],j),q,q,q,C.J)
-k=T.bv(q,M.aT(q,T.ec(C.ap,H.a([new T.aK(new V.Y(150,100,0,0),M.aT(q,U.bD("images/air1.png",C.W,q),q,q,i,q,600,q,q,q,q),q)],n),C.an),q,q,q,q,800,q,q,q,k),q,q,q,q,330,q)
+T:function(a){var s,r=this,q=null,p=r.a.d,o=T.bv(0,new T.lq(3,M.aT(q,T.zB(O.bZ("AIR QUALITY",A.fs(q,q,P.aN(102,255,255,255),q,q,q,q,q,q,q,q,p*0.5,q,C.w,q,q,!0,q,q,q,q,q,q)),C.W),q,q,q,q,200,q,q,q,q),q),q,q,q,0,q,q),n=t.Y,m=T.bv(q,T.kF(H.a([new T.aK(new V.Y(0,0,0,0),O.bZ("Air Quality",B.a1q(C.j,21,C.bK)),q),new T.aK(new V.Y(0,15,0,0),q,q),M.aT(q,L.fr("Sprawdzanie jako\u015bci\npowietrza w\nPolsce",q,q,B.bA(C.j,48,C.w),q),q,q,q,q,q,q,new V.Y(0,0,0,15),q,q),new T.aK(new V.Y(0,20,0,0),L.fr("Air Quality - aplikacja ta pozwala sprawdzi\u0107 jako\u015b\u0107\npowietrza w ca\u0142ej Polsce - 16 wojew\xf3d\u017atwach - na podstawie\ndanych udostepnianych przez G\u0142\xf3wny Inspektorat Ochrony \u015arodowiska.",6,q,B.bA(C.j,16,C.o),C.dq),q)],n),C.aV,C.bz),q,q,20,q,100,q),l=T.bv(q,T.kF(H.a([new T.aK(new V.Y(0,50,0,0),q,q),O.bZ("Ilo\u015b\u0107 stacji",B.bA(C.j,15,q)),new T.aK(new V.Y(0,13,0,0),q,q),O.bZ("400+",B.bA(C.j,25,C.w)),new T.aK(new V.Y(0,50,0,0),q,q),O.bZ("Ilo\u015b\u0107 pomiar\xf3w",B.bA(C.j,15,q)),new T.aK(new V.Y(0,13,0,0),q,q),O.bZ("4+",B.bA(C.j,25,C.w))],n),C.aV,C.bz),q,q,20,q,400,q),k=r.a.d,j=t.l,i=S.dW(q,q,H.a([new O.cZ(5,P.aN(51,0,0,0),new P.n(0,15),20)],j),q,q,q,C.J)
+k=T.bv(q,M.aT(q,T.ec(C.ap,H.a([new T.aK(new V.Y(150,100,0,0),M.aT(q,U.bD("images/air1.png",C.W,q),q,q,i,q,600,q,q,q,q),q)],n),C.an),q,q,q,q,800,q,q,q,k),q,q,20,q,330,q)
 i=r.a.f.a
 s=S.dW(q,q,H.a([new O.cZ(5,P.aN(51,0,0,0),new P.n(0,15),20)],j),q,q,q,C.J)
 i=T.bv(q,M.aT(q,U.bD("images/air2.png",C.W,q),q,q,s,q,600,q,q,q,q),q,q,q,100,1500-i*0.2,q)
@@ -51747,7 +51748,7 @@ return M.aT(q,new T.de(C.M,q,q,M.aT(q,T.ec(C.ap,H.a([o,m,l,k,i,T.bv(q,M.aT(q,U.b
 D.r9.prototype={
 aJ:function(){return new D.GA(C.k)}}
 D.GA.prototype={
-T:function(a){var s,r=null,q="THE GAME",p=this.a.d,o=T.bv(r,M.aT(r,T.zB(O.bZ(q,A.fs(r,r,P.aN(102,255,255,255),r,r,r,r,r,r,r,r,p*0.5,r,C.w,r,r,!0,r,r,r,r,r,r)),C.iT),r,r,r,r,r,r,r,r,600),r,r,r,0,350,r),n=t.Y,m=T.bv(r,T.kF(H.a([new T.aK(new V.Y(0,0,0,0),O.bZ(q,B.a1q(C.j,21,C.bK)),r),new T.aK(new V.Y(0,15,0,0),r,r),M.aT(r,L.fr("Gra zr\u0119czno\u015bciowa\ntestuj\u0105ca szybko\u015b\u0107 u\u017cytkownika",r,r,B.bA(C.j,48,C.w),r),r,r,r,r,r,r,new V.Y(0,0,0,15),r,r),new T.aK(new V.Y(0,20,0,0),L.fr("The Game to gra zr\u0119czno\u015bciowa. Gra opiera si\u0119 na szybko\u015bci\njak i spostrzegawczo\u015bci gracza. Trudno\u015b\u0107 gry zwi\u0119ksza si\u0119 wraz z poziomem.\nDziesi\u0105tki r\xf3\u017cnych planszy, cztery kategorie, tysi\u0105ce poziom\xf3w\ni challenge kt\xf3ry mo\u017cna gra\u0107 w niesko\u0144czono\u015b\u0107.",6,r,B.bA(C.j,16,C.o),C.dq),r)],n),C.aV,C.bz),r,r,0,r,0,r),l=T.bv(r,T.kF(H.a([O.bZ("Ilo\u015b\u0107 poziom\xf3w",B.bA(C.j,15,r)),new T.aK(new V.Y(0,13,0,0),r,r),O.bZ("1 600+",B.bA(C.j,25,C.w)),new T.aK(new V.Y(0,50,0,0),r,r),O.bZ("Max punkt\xf3w",B.bA(C.j,15,r)),new T.aK(new V.Y(0,13,0,0),r,r),O.bZ("\u221e+",B.bA(C.j,35,C.w))],n),C.aV,C.bz),r,r,r,r,300,r),k=T.bv(r,U.bD("images/hacker.png",C.W,250),r,r,r,330,450,r),j=this.a,i=j.f.a
+T:function(a){var s,r=null,q="THE GAME",p=this.a.d,o=T.bv(r,M.aT(r,T.zB(O.bZ(q,A.fs(r,r,P.aN(102,255,255,255),r,r,r,r,r,r,r,r,p*0.5,r,C.w,r,r,!0,r,r,r,r,r,r)),C.li),r,r,r,r,r,r,r,r,600),r,r,r,0,350,r),n=t.Y,m=T.bv(r,T.kF(H.a([new T.aK(new V.Y(0,0,0,0),O.bZ(q,B.a1q(C.j,21,C.bK)),r),new T.aK(new V.Y(0,15,0,0),r,r),M.aT(r,L.fr("Gra zr\u0119czno\u015bciowa\ntestuj\u0105ca szybko\u015b\u0107 u\u017cytkownika",r,r,B.bA(C.j,48,C.w),r),r,r,r,r,r,r,new V.Y(0,0,0,15),r,r),new T.aK(new V.Y(0,20,0,0),L.fr("The Game to gra zr\u0119czno\u015bciowa. Gra opiera si\u0119 na szybko\u015bci\njak i spostrzegawczo\u015bci gracza. Trudno\u015b\u0107 gry zwi\u0119ksza si\u0119 wraz z poziomem.\nDziesi\u0105tki r\xf3\u017cnych planszy, cztery kategorie, tysi\u0105ce poziom\xf3w\ni challenge kt\xf3ry mo\u017cna gra\u0107 w niesko\u0144czono\u015b\u0107.",6,r,B.bA(C.j,16,C.o),C.dq),r)],n),C.aV,C.bz),r,r,20,r,0,r),l=T.bv(r,T.kF(H.a([O.bZ("Ilo\u015b\u0107 poziom\xf3w",B.bA(C.j,15,r)),new T.aK(new V.Y(0,13,0,0),r,r),O.bZ("1 600+",B.bA(C.j,25,C.w)),new T.aK(new V.Y(0,50,0,0),r,r),O.bZ("Max punkt\xf3w",B.bA(C.j,15,r)),new T.aK(new V.Y(0,13,0,0),r,r),O.bZ("\u221e+",B.bA(C.j,35,C.w))],n),C.aV,C.bz),r,r,20,r,300,r),k=T.bv(r,U.bD("images/hacker.png",C.W,250),r,r,r,330,450,r),j=this.a,i=j.f.a
 j=j.d
 i=T.bv(r,M.aT(r,T.ec(C.ap,H.a([new T.aK(new V.Y(150,0,0,0),M.aT(r,U.bD("images/game1.png",C.W,r),r,r,r,r,600,r,r,r,r),r)],n),C.an),r,r,r,r,800,r,r,r,j),r,r,r,r,240+i*0.02,r)
 j=this.a.f.a
@@ -51756,15 +51757,15 @@ return M.aT(r,new T.de(C.M,r,r,M.aT(r,T.ec(C.ap,H.a([o,m,l,k,i,T.bv(r,M.aT(r,U.b
 G.re.prototype={
 aJ:function(){return new G.GJ(C.k)}}
 G.GJ.prototype={
-T:function(a){var s=null,r=F.bu(a,!1).a,q=F.bu(a,!1).a,p=E.a1O(0.1)
-return M.aT(s,new T.de(C.M,s,s,M.aT(s,T.ec(C.ap,H.a([new T.de(C.M,s,s,T.uV(s,M.aT(s,new N.zD("images/test.flr","start",C.iT,C.M,s),s,s,s,s,s,s,new V.Y(0,0,10,0),s,1124),p,!0),s)],t.Y),C.an),s,s,s,s,1124,s,s,s,1124),s),C.j,s,s,s,q.b,s,s,s,r.a)}}
+T:function(a){var s=null,r=F.bu(a,!1).a,q=F.bu(a,!1).a.b,p=E.a1O(0.15)
+return M.aT(s,new T.de(C.M,s,s,M.aT(s,T.ec(C.ap,H.a([new T.de(C.M,s,s,T.uV(s,M.aT(s,new N.zD("images/test.flr","start",C.iT,C.M,s),s,s,s,s,s,s,new V.Y(0,0,10,0),s,s),p,!0),s)],t.Y),C.an),s,s,s,s,q,s,s,s,1124),s),C.j,s,s,s,q*0.9,s,s,s,r.a)}}
 L.rV.prototype={
 aJ:function(){return new L.H8(C.k)}}
 L.H8.prototype={
 T:function(a){var s=null,r=this.a.d,q=t.Y,p=T.bv(s,T.kF(H.a([new T.aK(C.hn,L.fr("App Marsz Niepodleg\u0142o\u015bci",s,s,B.bA(C.j,18,C.w),s),s),new T.aK(C.oP,L.fr("Najwi\u0119kszy marsz\nw Polsce",s,s,B.bA(C.j,43,C.w),s),s),new T.aK(C.oP,L.fr("Aplikacja dla Marszu Niepodleg\u0142o\u015bci\nAktualno\u015bci, Mapa marszu,\n\u015apiewnik i Historia\nWszystko w jednym miesjcu.",s,s,B.bA(C.j,21,C.o),s),s),new T.aK(new V.Y(0,50,0,0),s,s),new T.aK(C.hn,O.bZ("Ilo\u015b\u0107 pie\u015bni",B.bA(C.j,15,s)),s),new T.aK(new V.Y(0,13,0,0),s,s),new T.aK(C.hn,O.bZ("5+",B.bA(C.j,25,C.w)),s),new T.aK(new V.Y(0,50,0,0),s,s),new T.aK(C.hn,O.bZ("Ilo\u015b\u0107 u\u017cytkownik\xf3w",B.bA(C.j,15,s)),s),new T.aK(new V.Y(0,13,0,0),s,s),new T.aK(C.hn,O.bZ("150+",B.bA(C.j,25,C.w)),s)],q),C.aV,C.bz),s,s,80,s,250,s),o=this.a.f.a,n=S.dW(s,s,H.a([new O.cZ(2,P.aN(51,0,0,0),new P.n(0,15),20)],t.l),s,s,s,C.J)
-n=T.bv(-100+o*0.1,M.aT(s,U.bD("images/marsz2.png",C.W,s),s,s,n,s,600,s,s,s,s),s,s,s,0,s,s)
+n=T.bv(-100+o*0.1,M.aT(s,U.bD("images/marsz2.png",C.W,s),s,s,n,s,600,s,s,s,s),s,s,s,20,s,s)
 o=this.a.f.a
-return M.aT(s,new T.de(C.M,s,s,M.aT(s,T.ec(C.ap,H.a([p,n,T.bv(s,M.aT(s,U.bD("images/marsz4.png",C.W,s),s,s,s,s,600,s,s,s,s),s,s,0,s,0+o*0.02,s)],q),C.an),s,s,s,s,1124,s,s,s,1124),s),s,s,s,s,1124,s,new V.Y(0,0,0,0),s,r)}}
+return M.aT(s,new T.de(C.M,s,s,M.aT(s,T.ec(C.ap,H.a([p,n,T.bv(s,M.aT(s,U.bD("images/marsz4.png",C.W,s),s,s,s,s,600,s,s,s,s),s,s,20,s,0+o*0.02,s)],q),C.an),s,s,s,s,1124,s,s,s,1124),s),s,s,s,s,1124,s,new V.Y(0,0,0,0),s,r)}}
 R.Bp.prototype={
 aD:function(a,b){var s,r=null,q=U.uK(r,r,1,r,Q.lJ(r,A.fs(r,r,P.c_(37,37,37,1),r,r,r,r,r,r,r,r,18,r,C.w,r,r,!0,r,r,r,r,r,r),"MODERN SHOP"),C.aS,C.m,r,1,C.ca),p=U.uK(r,r,1,r,Q.lJ(r,A.fs(r,r,P.c_(105,105,105,1),r,r,r,r,r,r,r,r,350,r,C.w,r,r,!0,r,r,r,r,r,r),"MODERN"),C.aS,C.m,r,1,C.ca)
 p.kU(1124,0)
@@ -51791,10 +51792,10 @@ A.v4.prototype={
 aJ:function(){return new A.Jv(new P.n(0,0),C.k)}}
 A.Jv.prototype={
 b3:function(){this.bz()},
-T:function(a){var s=null,r=this.a.d,q=T.zB(O.bZ("WHAT'S THAT",A.fs(s,s,P.aN(102,255,255,255),s,s,s,s,s,s,s,s,r*0.5,s,C.w,s,s,!0,s,s,s,s,s,s)),C.li),p=t.Y,o=T.bv(s,T.kF(H.a([new T.aK(new V.Y(0,0,0,0),O.bZ("What's That",B.a1q(C.j,21,C.bK)),s),new T.aK(new V.Y(0,15,0,0),s,s),M.aT(s,L.fr("Aplikacja Mobilna kt\xf3ra\npomaga szuka\u0107 ubra\u0144",s,s,B.bA(C.j,48,C.w),s),s,s,s,s,s,s,new V.Y(0,0,0,15),s,s),new T.aK(new V.Y(0,20,0,0),L.fr("What's That to aplikacja spo\u0142eczno\u015bciowa. Celem aplikacji jest\npomaganie innym u\u017cytkownikom w znajdowaniu ubra\u0144\npo zdj\u0119ciach. A tak\u017ce sklep\xf3w w kt\xf3rych mo\u017cna je kupi\u0107.",6,s,B.bA(C.j,16,C.o),C.dq),s)],p),C.aV,C.bz),s,s,0,s,100,s),n=T.bv(s,T.kF(H.a([O.bZ("Ilo\u015b\u0107 ubra\u0144",B.bA(C.j,15,s)),new T.aK(new V.Y(0,13,0,0),s,s),O.bZ("15 000+",B.bA(C.j,25,C.w)),new T.aK(new V.Y(0,50,0,0),s,s),O.bZ("Ilo\u015b\u0107 kategorie",B.bA(C.j,15,s)),new T.aK(new V.Y(0,13,0,0),s,s),O.bZ("75+",B.bA(C.j,25,C.w))],p),C.aV,C.bz),s,s,s,s,400,s),m=this.a.d,l=S.dW(s,s,H.a([new O.cZ(2,P.aN(51,0,0,0),new P.n(0,15),20)],t.l),s,s,s,C.J)
+T:function(a){var s=null,r=this.a.d,q=T.zB(O.bZ("WHAT'S THAT",A.fs(s,s,P.aN(102,255,255,255),s,s,s,s,s,s,s,s,r*0.5,s,C.w,s,s,!0,s,s,s,s,s,s)),C.iT),p=t.Y,o=T.bv(s,T.kF(H.a([new T.aK(new V.Y(0,0,0,0),O.bZ("What's That",B.a1q(C.j,21,C.bK)),s),new T.aK(new V.Y(0,15,0,0),s,s),M.aT(s,L.fr("Aplikacja Mobilna kt\xf3ra\npomaga szuka\u0107 ubra\u0144",s,s,B.bA(C.j,48,C.w),s),s,s,s,s,s,s,new V.Y(0,0,0,15),s,s),new T.aK(new V.Y(0,20,0,0),L.fr("What's That to aplikacja spo\u0142eczno\u015bciowa. Celem aplikacji jest\npomaganie innym u\u017cytkownikom w znajdowaniu ubra\u0144\npo zdj\u0119ciach. A tak\u017ce sklep\xf3w w kt\xf3rych mo\u017cna je kupi\u0107.",6,s,B.bA(C.j,16,C.o),C.dq),s)],p),C.aV,C.bz),s,s,20,s,100,s),n=T.bv(s,T.kF(H.a([O.bZ("Ilo\u015b\u0107 ubra\u0144",B.bA(C.j,15,s)),new T.aK(new V.Y(0,13,0,0),s,s),O.bZ("15 000+",B.bA(C.j,25,C.w)),new T.aK(new V.Y(0,50,0,0),s,s),O.bZ("Ilo\u015b\u0107 kategorie",B.bA(C.j,15,s)),new T.aK(new V.Y(0,13,0,0),s,s),O.bZ("75+",B.bA(C.j,25,C.w))],p),C.aV,C.bz),s,s,20,s,400,s),m=this.a.d,l=S.dW(s,s,H.a([new O.cZ(2,P.aN(51,0,0,0),new P.n(0,15),20)],t.l),s,s,s,C.J)
 m=T.bv(s,M.aT(s,T.ec(C.ap,H.a([new T.aK(new V.Y(150,10,0,0),M.aT(s,U.bD("images/whatsthat1.png",C.W,s),s,s,l,s,600,s,s,s,s),s)],p),C.an),s,s,s,s,800,s,s,s,m),s,s,s,s,350,s)
 l=this.a.f.a
-return M.aT(s,new T.de(C.M,s,s,M.aT(s,T.ec(C.ap,H.a([new T.de(C.M,s,s,new T.lq(3,q,s),s),o,n,m,T.bv(s,M.aT(s,U.bD("images/whatsthatman1.png",C.W,s),s,s,s,s,600,s,s,s,s),s,s,s,100,400+-l*0.15,s)],p),C.an),s,s,s,s,1124,s,s,s,1124),s),s,s,s,s,1124,s,s,s,r)}}
+return M.aT(s,new T.de(C.M,s,s,M.aT(s,T.ec(C.ap,H.a([new T.de(C.M,s,s,new T.lq(3,q,s),s),o,n,m,T.bv(s,M.aT(s,U.bD("images/whatsthatman1.png",C.W,s),s,s,s,s,600,s,s,s,s),s,s,s,0,400+-l*0.15,s)],p),C.an),s,s,s,s,1124,s,s,s,1124),s),s,s,s,s,1124,s,s,s,r)}}
 F.Bo.prototype={
 T:function(a){var s=null,r=X.a5K(s,C.mz,X.ads())
 return new T.q7(new Y.oA(new F.QW(),s,s,s,F.ahC(),T.agq(),t.Bi),s,s,new S.rY(new F.tb(s),"Flutter Demo",r,!1,s),s,t.ns)}}
@@ -51827,25 +51828,25 @@ D.rh.prototype={
 aJ:function(){return new D.GK(new P.n(0,0),[0.6,0.7,0.6,0.5,0.7,0.8],F.a22(),P.c_(102,88,128,1),null,C.k)}}
 D.GK.prototype={
 b3:function(){var s=this,r=null
-s.fx=U.bD("images/marsz1.png",r,r)
-s.fy=U.bD("images/marsz2.png",r,r)
-s.go=U.bD("images/game1.png",r,r)
-s.id=U.bD("images/game3.png",r,r)
-s.k1=U.bD("images/shop1.png",r,r)
-s.k2=U.bD("images/shop4.png",r,r)
-s.k3=U.bD("images/air1.png",r,r)
-s.k4=U.bD("images/air2.png",r,r)
+s.fy=U.bD("images/marsz1.png",r,r)
+s.go=U.bD("images/marsz2.png",r,r)
+s.id=U.bD("images/game1.png",r,r)
+s.k1=U.bD("images/game3.png",r,r)
+s.k2=U.bD("images/shop1.png",r,r)
+s.k3=U.bD("images/shop4.png",r,r)
+s.k4=U.bD("images/air1.png",r,r)
+s.r1=U.bD("images/air2.png",r,r)
 s.bz()},
 bc:function(){var s=this
 s.JZ()
-U.dT(s.fx.c,s.c)
 U.dT(s.fy.c,s.c)
 U.dT(s.go.c,s.c)
 U.dT(s.id.c,s.c)
 U.dT(s.k1.c,s.c)
 U.dT(s.k2.c,s.c)
 U.dT(s.k3.c,s.c)
-U.dT(s.k4.c,s.c)},
+U.dT(s.k4.c,s.c)
+U.dT(s.r1.c,s.c)},
 SN:function(a){var s=this
 if(a>F.bu(s.c,!1).a.gc4()*0.8&&a<F.bu(s.c,!1).a.gc4()*1.8)s.aI(new D.XF(s))
 if(a>F.bu(s.c,!1).a.gc4()*1.8&&a<F.bu(s.c,!1).a.gc4()*3)s.aI(new D.XG(s))
@@ -51874,7 +51875,7 @@ $3:function(a,b,a0){var s,r,q,p,o,n,m=this,l=null,k=m.a,j=k.y,i=m.b,h=m.c,g=P.dg
 e=T.bv(l,M.aT(l,U.By(new B.B2(new G.Ud(!0,!0,!0,e,d),l,C.r,!1,k.x,!1,l,!1,l,c,C.as,C.yj,l),new D.XC(k,m.d),t.s4),l,l,l,l,h,l,l,l,i),l,l,l,l,l,l)
 d=P.dg(0,200)
 c=k.fr
-s=c?0:h/2-75
+s=c?0:k.fx
 r=P.dg(0,200)
 q=c?h:150
 p=c?i:50
@@ -51894,7 +51895,7 @@ s.SN(r)
 return!0},
 $S:96}
 D.XB.prototype={
-$0:function(){this.b.a.c},
+$0:function(){this.a.fx=this.b.a.c*0.1},
 $S:0}
 D.XD.prototype={
 $0:function(){var s=this.a
@@ -54255,9 +54256,9 @@ C.o9=new S.aU(1/0,1/0,1/0,1/0)
 C.iS=new S.aU(0,1/0,0,1/0)
 C.Dl=new S.aU(88,1/0,36,1/0)
 C.oa=new U.hz("BoxFit.fill")
-C.li=new U.hz("BoxFit.contain")
+C.iT=new U.hz("BoxFit.contain")
 C.ob=new U.hz("BoxFit.cover")
-C.iT=new U.hz("BoxFit.fitWidth")
+C.li=new U.hz("BoxFit.fitWidth")
 C.W=new U.hz("BoxFit.fitHeight")
 C.oc=new U.hz("BoxFit.none")
 C.lj=new U.hz("BoxFit.scaleDown")
