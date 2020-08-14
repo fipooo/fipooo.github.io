@@ -26,7 +26,7 @@ const RESOURCES = {
 "images/air2.png": "ee5608ef24e39e48f8a8851b09b61a60",
 "images/howwell1.png": "ac378a4643809c42e52d90f1f7a2ab62",
 "images/marsz2.png": "45c52e0b2eb63851ef6778c64196a9b2",
-"main.dart.js": "e28418ecd3991331c1b9a0ff1c9e6a1e",
+"main.dart.js": "7bf274b04ca60390684d468415929ee3",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
