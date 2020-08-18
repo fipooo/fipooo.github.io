@@ -7,7 +7,7 @@ TODO:
 - [x] Phone size
 - [x] Add CV to computer size
 - [ ] Hover effect on some items with custom pointer
-- [ ] Add CV to phone siez
+- [x] Add CV to phone siez
 - [ ] Add CV to tablet siez
 - [ ] Tablet size
 
