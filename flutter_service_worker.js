@@ -27,17 +27,19 @@ const RESOURCES = {
 "images/air2.png": "ee5608ef24e39e48f8a8851b09b61a60",
 "images/howwell1.png": "ac378a4643809c42e52d90f1f7a2ab62",
 "images/marsz2.png": "45c52e0b2eb63851ef6778c64196a9b2",
-"main.dart.js": "8a4a43f58356b08299fd57dcd459e11e",
+"main.dart.js": "d4c2955c84a05da03280e050b3924d5d",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "a83bbbd9d23ea4d752fbcd44cdc544fa",
-"assets/AssetManifest.json": "da3013bcf7e002316cea813fe8ff4aff",
-"assets/NOTICES": "0455fac64ce0a750f939dfe6c842eaf7",
-"assets/FontManifest.json": "01700ba55b08a6141f33e168c4a6c22f",
+"assets/AssetManifest.json": "10c979bdef72ed48883465b0adff7893",
+"assets/NOTICES": "6bf019f147d63214384ff72558ac6ace",
+"assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
+"assets/fonts/MaterialIcons-Regular.otf": "a68d2a28c526b3b070aefca4bac93d25",
 "assets/assets/images/whatsthat4.png": "8e998aff32bb157a3a0150618bb7448d",
+"assets/assets/images/googleplay.png": "db9b21a1c41f3dcd9731e1e7acfdbb57",
 "assets/assets/images/whatsthat2.png": "f98400734aba0219371b52b6ece4c8eb",
 "assets/assets/images/whatsthatman.png": "1eb57e344d2bd8f7d045c78dfd9f115b",
 "assets/assets/images/whatsthat3.png": "fb69089c0f8327c937269afdfb95bc4e",
@@ -49,6 +51,7 @@ const RESOURCES = {
 "assets/assets/images/game1.png": "1e3e7a864dbf85cd5a86d899e608872f",
 "assets/assets/images/luxsure2.png": "cbd226f97d61bae3fe9ca71a7c103b3a",
 "assets/assets/images/wulf.nma": "87cc5ab5a3af34d2283301a3d9d7f4b0",
+"assets/assets/images/appstore.png": "458487a32f967aa08616aa3b02fd1902",
 "assets/assets/images/pointingman.png": "a5c2198174cc01d884a702762d4a9972",
 "assets/assets/images/shop1.png": "a5e8783d965fb0fc0178c03c2eb3f3e0",
 "assets/assets/images/man3.png": "076ffc89beb97955fd6b0c7538c97412",
@@ -94,8 +97,8 @@ const CORE = [
 self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
-      // Provide a no-cache param to ensure the latest version is downloaded.
-      return cache.addAll(CORE.map((value) => new Request(value, {'cache': 'no-cache'})));
+      // Provide a 'reload' param to ensure the latest version is downloaded.
+      return cache.addAll(CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
@@ -178,7 +181,7 @@ self.addEventListener("fetch", (event) => {
         // Either respond with the cached resource, or perform a fetch and
         // lazily populate the cache. Ensure the resources are not cached
         // by the browser for longer than the service worker expects.
-        var modifiedRequest = new Request(event.request, {'cache': 'no-cache'});
+        var modifiedRequest = new Request(event.request, {'cache': 'reload'});
         return response || fetch(modifiedRequest).then((response) => {
           cache.put(event.request, response.clone());
           return response;
